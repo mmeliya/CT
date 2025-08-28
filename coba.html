@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COBA</title>
+     <link rel="stylesheet" href="all.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--NAVBAR-->
+     <header>
+  <div class="logo">
+    <img src="logo-removebg-preview.png" alt="ChaosTee Logo">
+  </div>
+  <nav>
+    <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="galery.html">GALLERY</a></li>
+      <li><a href="detail.html">DETAIL PRODUK</a></li>
+    </ul>
+  </nav>
+  <div class="icon">
+    <i class="fas fa-shopping-bag"></i>
+  </div>
+</header>
+    <!--NAVBAR-->
+
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+   
+    .product-container {
+      display: flex;
+      gap: 30px;
+      align-items: flex-start;
+    }
+    
+    .left-side {
+      flex: 1;
+    }
+    .main-photo img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+    }
+    .extra-photos {
+      display: flex;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .extra-photos img {
+      width: 100%;
+      max-width: 140px;
+      border-radius: 8px;
+    }
+    .product-details {
+      flex: 1;
+    }
+    .product-title {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .product-price {
+      font-size: 18px;
+      color: #333;
+      margin: 10px 0;
+    }
+    .product-sizes {
+      margin-top: 15px;
+    }
+    .size-btn {
+      padding: 8px 15px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      background: white;
+    }
+    .buttons {
+      margin-top: 15px;
+    }
+    .add-cart {
+      padding: 10px 15px;
+      background: #4e73df;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .buy-now {
+      padding: 10px 15px;
+      background: black;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-container">
+    <!-- Bagian Kiri -->
+    <div class="left-side">
+      <div class="main-photo">
+        <img src="foto.jpg" alt="Model memakai kaos">
+      </div>
+      <div class="extra-photos">
+        <img src="foto 1.jpg" alt="Kaos Tampak Depan">
+        <img src="foto2.jpg" alt="Kaos Tampak Belakang">
+      </div>
+    </div>
+
+    <!-- Bagian Kanan -->
+    <div class="product-details">
+      <div class="product-title">CT American Retro T-shirt</div>
+      <div class="product-price">Rp. 89.000</div>
+
+      <div class="product-sizes">
+        <p>Ukuran:</p>
+        <button class="size-btn">M</button>
+        <button class="size-btn">L</button>
+        <button class="size-btn">XL</button>
+      </div>
+
+      <div class="buttons">
+        <button class="add-cart">Add to cart</button>
+        <button class="buy-now">Buy it now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="details">
+      <h3>Detail Produk</h3>
+      <p>Terbuat dari bahan katun 100% yang nyaman. 
+        Bahan yang telah dicuci lebih lembut dan bahan yang nyaman serta longgar akan membuat anda terasa muda dan trendi.
+        Motif sablon yang digunakan berkualitas tinggi sehingga tidak mudah luntur atau retak meskipun sering di cuci
+        Jahitan yang rapi serta bahan yang ringan membuat kaos ini sangat nyaman dipakai untuk aktivitas sehari-hari.
+        Dengan gaya streetwear, kaos ini memberikan tampilan stylish. Untuk perawatan , kaos ini dapat dicuci
+        menggunakan mesin cuci, tetapi disarankan tidak menggunakan pemutih agar warna dan sablon tetap awet.
+      </p>
+
+      <h3>Size/KG</h3>
+      <p>M = 32-42 KG<br>
+         L = 42-47 KG<br>
+         XL = 47-55 KG</p>
+
+      <h3>Disclaimer</h3>
+      <p>Warna produk pada gambar mungkin tidak 100% sama, karena proses pencahayaan pada pengambilan gambar dan kualitas layar gadget yang digunakan untuk melihat gambar.
+         Sebelum membeli, mohon pastikan ukuran yang dipesan sudah sesuai.
+         Kami selalu berusaha menampilkan gambar yang mendekati hasilnya, namun toleransi perbedaan warna tetap mungkin terjadi.
+         Pastikan ukuran yang dipilih sesuai dengan kebutuhan sebelum memesan.
+         Apabila barang sudah diterima terdapat perbedaan yang terlalu jauh dan tidak dapat diterima, silakan ajukan penukaran.
+        </p>
+    </div>
+  </div>
+
+</body>
+</html>
