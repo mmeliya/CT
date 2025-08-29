@@ -34,8 +34,8 @@
     nav ul {
       list-style: none;
       display: flex;
-      gap: 30px;
-      margin: 0;
+      gap: 90px;
+      margin: 0 20px;
     }
 
     nav ul li a {
@@ -77,6 +77,18 @@
       transform: scale(1.1);
     }
 
+    .icon {
+  font-size: 24px;
+  color: #583F30;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-left: -1px; /* kasih jarak biar tidak terlalu mepet */
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
     /* Main Content */
     .container {
       max-width: 1200px;
@@ -86,7 +98,7 @@
 
     /* Hero Section */
     .fotoutama {
-      margin: 40px auto;
+      margin: 10px auto;
       text-align: center;
     }
 
